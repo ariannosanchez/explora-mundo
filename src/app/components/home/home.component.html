@@ -1,0 +1,32 @@
+<div class="w-full flex flex-col justify-center items-center min-h-screen bg-gradient-to-b from-white to-gray-950">
+    <div class="max-w-screen-lg p-4 mx-auto">
+        <h1 class="text-4xl md:text-6xl text-blue-950 font-bold mb-6">¡Bienvenido a ExploraMundo!</h1>
+    <p class="text-xl md:text-2xl text-gray-600 mb-8">Descubre países, capitales y continentes en nuestro mundo</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div
+            class="flex flex-col items-center bg-slate-400 text-white py-8 px-10 rounded-lg shadow-md hover:bg-slate-500 transition duration-300">
+            <h2 class="text-lg md:text-xl font-bold mb-2">Buscar por país</h2>
+            <p class="text-sm md:text-base text-gray-100 text-center">Encuentra información detallada sobre países.</p>
+            <a routerLink="/country" class="mt-4 text-sm md:text-base px-6 py-3 flex items-center rounded-md bg-white text-black cursor-pointer hover:scale-105 duration-500">Ver
+                países</a>
+        </div>
+        <div
+            class="flex flex-col items-center bg-gray-800 text-white py-8 px-10 rounded-lg shadow-md hover:bg-gray-900 transition duration-300">
+            <h2 class="text-lg md:text-xl font-bold mb-2">Buscar por capital</h2>
+            <p class="text-sm md:text-base text-gray-100 text-center">Descubre información sobre las capitales de los
+                países.</p>
+            <a routerLink="/capital" class="mt-4 text-sm md:text-base px-6 py-3 flex items-center rounded-md bg-white text-black cursor-pointer hover:scale-105 duration-500">Ver
+                capitales</a>
+        </div>
+        <div
+            class="flex flex-col items-center bg-blue-900 text-white py-8 px-10 rounded-lg shadow-md hover:bg-blue-950 transition duration-300">
+            <h2 class="text-lg md:text-xl font-bold mb-2">Buscar por continente</h2>
+            <p class="text-sm md:text-base text-gray-100 text-center">Explora datos interesantes sobre los continentes.
+            </p>
+            <a routerLink="/continent"
+                class="mt-4 text-sm md:text-base px-6 py-3 flex items-center rounded-md bg-white text-black cursor-pointer hover:scale-105 duration-500">Ver por continentes</a>
+        </div>
+    </div>
+    </div>
+    
+</div>
